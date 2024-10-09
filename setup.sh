@@ -45,7 +45,6 @@ PERMISSION () {
     else
     res="Permission Denied!"
     fi
-    echo "permisi $res"
     BURIQ
 }
 
@@ -167,7 +166,7 @@ echo -ne "[ ${green}INFO${NC} ] Check permission : "
 #green "Permission Accepted!"
 #else
 #red "Permission Denied!"
-#rm setup.sh > /dev/null 2>&1
+rm setup.sh > /dev/null 2>&1
 #sleep 10
 #exit 0
 #fi
